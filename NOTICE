@@ -1,0 +1,17 @@
+NOTICE
+
+This repository contains generic technical patterns and reusable configuration
+approaches for the WEBCON BPS platform.
+
+All materials in this repository represent independent technical knowledge,
+design approaches, and reusable configuration techniques developed as part of
+the author's professional tools library.
+
+This repository DOES NOT contain:
+- client-specific implementations
+- business processes
+- proprietary workflows
+- production system exports
+- confidential or sensitive data
+
+The examples are intended for educational and technical reference purposes only.
