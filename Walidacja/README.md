@@ -1,77 +1,73 @@
-Author: **[Piotr Czapliński HIPERSYSTEM LTD (TM)]**  
-License: **Apache 2.0**
+# Walidacja (Validation Patterns)
+
+This section contains reusable technical patterns related to **data validation** in Webcon BPS.
+
+Validation patterns help ensure data correctness, consistency, and business rule enforcement at the form and workflow level.
 
 ---
 
-## 📌 Purpose of this Repository
+## 📌 Scope
 
-This repository contains a collection of **generic, reusable technical patterns** for the **Webcon BPS platform**.  
-It is intended as a **knowledge base and tools library** to help developers and consultants understand common implementation techniques.
+The examples in this category focus on:
 
-The goal is to support:
-- new Webcon BPS developers
-- solution architects
-- consultants building process applications
+- Conditional required fields  
+- Cross-field validation  
+- Format validation (e.g., numbers, text patterns)  
+- Logical constraints between attributes  
+- Preventing incorrect form submission  
 
----
-
-## 🧩 What You Will Find Here
-
-Examples of technical patterns such as:
-
-- Calculating sums of values using additional attributes  
-- Dynamic form field visibility logic  
-- Validation rule patterns  
-- Reusable configuration approaches  
-- Generic integration and helper techniques  
-
-All examples focus on **technical mechanisms**, not business logic.
+All patterns are based on **generic technical mechanisms**, not business-specific logic.
 
 ---
 
-## ❗ Important Notice
+## 🧩 Typical Techniques Used
 
-This repository:
-
-- **DOES NOT contain any client-specific solutions**
-- **DOES NOT include business processes**
-- **DOES NOT include proprietary workflows**
-- **DOES NOT include production system exports**
-
-All content represents **generic implementation knowledge** created independently as part of the author's professional toolset and technical expertise.
+- Form rules  
+- Attribute-based conditions  
+- Expression logic  
+- Validation actions in workflow steps  
 
 ---
 
-## ⚖️ Intellectual Property
+## 🎯 Goal of These Patterns
 
-All materials in this repository are original technical work and part of the author's personal knowledge library used across multiple projects.
+These examples demonstrate how to:
 
-Projects delivered to clients may use these patterns as technical building blocks, similar to a developer toolkit or framework.
-
----
-
-## 📜 License
-
-This project is licensed under the **Apache License 2.0**.
-
-You are free to:
-- use
-- modify
-- distribute
-
-provided the license terms are respected.
-
-See the LICENSE file for details.
+- Reduce user input errors  
+- Improve data quality  
+- Enforce consistent system behavior  
+- Guide users during form completion  
 
 ---
 
-## 🎯 Disclaimer
+## 📂 Structure of Each Example
 
-This repository is for educational and technical reference purposes only.  
-The author is not responsible for any issues resulting from the use of these configurations.
+Each pattern folder includes:
+
+| File | Purpose |
+|------|---------|
+| `description.md` | Technical explanation |
+| `configuration-steps.md` | Step-by-step setup |
+| `use-case.md` | Generic usage scenario |
+| `screenshots/` | Visual configuration examples |
 
 ---
 
-## 🤝 Contributions
+## ⚠️ Important Notice
 
-Suggestions and improvements are welcome, provided they remain generic and do not include confidential or client-specific materials.
+This section does not include:
+
+- client-specific validation logic  
+- proprietary business rules  
+- production system configurations  
+
+All examples represent reusable technical knowledge.
+
+---
+
+## 🚀 Who Is This For
+
+- Webcon BPS developers  
+- Process designers  
+- Technical consultants  
+- Beginners learning platform logic  
