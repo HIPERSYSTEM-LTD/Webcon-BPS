@@ -1,6 +1,6 @@
 # Webcon BPS – Technical Patterns Library
 
-Author: **[Piotr Czapliński HIPERSYSTEM LTD (TM)]**  
+Author: **HIPERSYSTEM LTD**  
 License: **Apache 2.0**
 
 ---
